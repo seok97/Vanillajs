@@ -24,7 +24,7 @@ console.log(daysOfWeek);
 */
 
 // Obeject
-
+/*
 const suck = {
     name:"woo",
     age:24,
@@ -51,5 +51,84 @@ const foood = {
 console.log(foood);
 console.log(foood.fastfood);
 console.log(foood.fastfood[0].name);
+*/
 
+//함수.
+/*
+const caluc = {
+    plus:function(a,b){
+        return a + b;
+    },
+    minus:function(a,b){
+        let ans;
+        if(a > b){
+            ans = a - b;
+        }else if(a < b){
+            ans = b - a;
+        }
+        return ans;
+    },
+    division:function(a,b){
+        return a / b;
+    },
+    multi:function(a,b){
+        return a * b;
+    },
+    sq:function(a,b){
+        let ans = a;
+        for(let i= 0 ; i < b; i++){
+            ans = ans*a;
+        };
+        return ans;
+    }
+}
 
+const plus = caluc.plus(5,6);
+const min = caluc.minus(5,6);
+const divi = caluc.division(5,6);
+const multi = caluc.multi(5,6);
+const sq = caluc.sq(5,6);
+
+console.log(plus);
+console.log(min);
+console.log(divi);
+console.log(multi);
+console.log(sq);
+
+ */
+
+ // 백틱(`)
+/*
+ function say(name,age){
+     return `hello ${name} you are ${age} years old`;
+ }
+
+ const greeet = say("suck",24);
+
+ console.log(greeet);
+ */
+
+ // document 객체
+/*
+ console.log(document);
+
+ console.log(document.getElementById("title"));
+
+ const title = document.getElementById("title");
+
+ title.innerHTML = "수정했따 병신아!";
+
+ console.log(title.dir);
+
+ title.style.color = "red";
+
+ document.title = "이것도 바꿧다";
+
+ */
+
+ 
+ // querySelector
+
+ const title = document.querySelector("#title");
+ title.innerHTML = "쿼리셀렉터 이용하기";
+ 
