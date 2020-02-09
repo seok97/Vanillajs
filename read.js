@@ -128,7 +128,43 @@ console.log(sq);
 
  
  // querySelector
-
+/*
  const title = document.querySelector("#title");
  title.innerHTML = "쿼리셀렉터 이용하기";
- 
+ */
+
+// 이벤트
+/*
+const title = document.querySelector("#title");
+
+function handleresize(){
+    title.style.color = "red";
+}
+
+title.addEventListener("click",handleresize);
+*/
+
+// window 이벤트
+/*
+const bod = document.getElementById("testdiv");
+
+console.log(bod.dir);
+
+function backgroundchan(){
+    
+}
+
+window.addEventListener("resize",backgroundchan);
+*/
+
+
+// if-else
+
+
+
+
+
+
+
+
+
